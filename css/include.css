@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{
+    position:absolute;
+    background:rgba(0,0,0,0.4); 
+    z-index:1;
+    left:0;
+    top:0;
+    width:100%; 
+    padding:30px 50px;
+    box-sizing:border-box; 
+}
+#header a{
+    color:#fff;
+    font-size: 18px;
+}
+.hLogo{
+    display:inline-block;
+   
+}
+.topMenu{
+    position:absolute; 
+    top:43px;
+    right:50px; 
+    height:38px;
+    line-height:38px;    
+}
+.topMenu>ul{
+    float:left; 
+}
+.topMenu>ul li{
+    margin-left:30px; 
+}
+.gnb{}
+.gnb li{
+    float:left; 
+}
+
+.util{
+    text-align:center;
+}
+.util li{
+    float:left;
+    width:120px;
+    height:38px;
+    line-height:38px; 
+    border:1px solid #fff;
+    box-sizing:border-box;
+}
+.util li a{
+    display:block; 
+}
+
+.hIcon{
+    display:inline-block;
+    vertical-align:middle;
+}
+.hIcon li{
+    float:left;
+}
+.hIcon li a{
+   display:block; 
+}
+.hIcon li img{
+   vertical-align:middle; 
+}
+/*footer*/
+#footer{
+    background:#000;
+    color:#fff;
+    font-size:18px;
+    padding:100px 50px; 
+}
+
+.fLogo{
+    float:left; 
+    padding:35px 0; 
+}
+.fLogo a{}
+.fLogo a img{}
+
+.fR{
+    float:right; 
+}
+.fMenu{
+    display:block;
+    margin-bottom:20px; 
+}
+.fMenu li{
+    float:left; 
+}
+.fMenu li::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#fff;
+    margin:0 20px; 
+}
+.fMenu li:last-child::after{
+    display:none; 
+}
+.fMenu li a{
+    color:#fff;
+}
+.fInfo{
+    font-weight:200;
+    
+     
+}
+.fInfo li{
+    
+}
+.fInfo li p{
+    display:inline-block;
+    padding:10px 0; 
+}
+.fInfo li p::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#fff;
+    margin:0 20px;
+}
+.fInfo li p:last-child::after{
+    display:none; 
+}
+.copy{
+    font-size:13px;
+    color:#666;
+    display:inline-block;
+}
